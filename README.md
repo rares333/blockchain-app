@@ -5,11 +5,15 @@ Quick Start
 
 git clone https://github.com/rares333/blockchain-app.git
 cd blockchain-app
+
+
 2) Install dependencies
 
 npm install
 cd contracts && npm install
 cd ../frontend && npm install
+
+
 3) Start a local chain (Hardhat)
 
 npx hardhat node
