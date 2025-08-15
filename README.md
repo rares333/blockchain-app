@@ -51,7 +51,7 @@ Import one of the private keys printed by npx hardhat node into MetaMask. (Use a
 7) Run the React app
 
 npm start
-# or
+or
 npm run dev
 
 cd frontend
