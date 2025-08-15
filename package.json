@@ -1,0 +1,17 @@
+{
+    "name": "blockchain-property-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "test": "hardhat test",
+        "start:node": "hardhat node",
+        "deploy": "hardhat run scripts/deploy.js --network localhost"
+    },
+    "dependencies": {
+        "@nomiclabs/hardhat-waffle": "^2.0.3",
+        "@openzeppelin/contracts": "^4.8.2",
+        "ethers": "^5.7.2",
+        "framer-motion": "^12.18.1",
+        "hardhat": "^2.16.1"
+    }
+}
